@@ -1,6 +1,6 @@
-# ejercicio de arquitectura de backend
+# Ejercicio de arquitectura 
 ## Descripción
-este es un ejemplo de una api basandose en una arquitectura en capas con la inteción de cumplir las reglas y buenas practicas basicas.
+Este es un ejemplo de una api basandose en una arquitectura en capas con la intención de cumplir las reglas y buenas practicas de escalabilidad y mantenimiento de la aplicación.
 
 ## Instalación
-´npm install´
+** npm install ** 
