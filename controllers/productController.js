@@ -28,7 +28,7 @@ exports.getProducts = async (req, res) => {
     }
 }
 
-// --- NUEVOS ENDPOINTS ---
+
 // Conteo de productos (GET /api/products/count)
 exports.countProducts = async (req, res) => {
     try {
@@ -52,7 +52,7 @@ exports.totalCost = async (req, res) => {
 }
 
 // --- RELACIÓN 1:N (Reviews) ---
-// Obtener todas las reviews de un producto (GET /api/products/:productId/reviews)
+// Obtener todas las reviews de un producto 
 exports.getReviews = async (req, res) => {
     const { productId } = req.params;
     try {
@@ -64,7 +64,7 @@ exports.getReviews = async (req, res) => {
     }
 }
 
-// Crear una review para un producto (POST /api/products/:productId/reviews)
+// Crear una review para un producto 
 exports.addReview = async (req, res) => {
     const { productId } = req.params;
     const { comment, rating } = req.body;
