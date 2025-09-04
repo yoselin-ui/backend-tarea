@@ -12,7 +12,7 @@ router.get('/products', productController.getProducts);
 router.get('/products/count', productController.countProducts);
 router.get('/products/total', productController.totalCost);
 
-// Rutas de reviews (relación 1:N)
+// Rutas de reviews (Relación 1:N)
 router.get('/products/:productId/reviews', productController.getReviews);
 router.post('/products/:productId/reviews', productController.addReview);
 
